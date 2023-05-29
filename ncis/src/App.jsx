@@ -1,7 +1,7 @@
-import { useState } from 'react'
-import { About, Contact, Ethos, Events, Execs, Goals, Hero, Navbar, PS, Pubs } from './components/export'
+import React from 'react'
 import './App.css'
-
+import { About, Contact, Ethos, Events, Execs, Goals, Hero, Navbar, PS, Pubs } from './components/export'
+import { Button } from '@chakra-ui/react'
 function App() {
 
   return (
@@ -17,7 +17,6 @@ function App() {
     <Events></Events>
     <Contact></Contact>
     </div>
-
   )
 }
 
